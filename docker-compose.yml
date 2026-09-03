@@ -15,6 +15,7 @@ services:
 
   django_app:
     image: harssh24/notes-app:latest
+    context: .
     container_name: "django_cont"
     ports:
       - "8000:8000"
